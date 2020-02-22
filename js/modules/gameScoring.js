@@ -1,5 +1,6 @@
 // SCORING CLASS USED
 
+
 export class ScoreGame {
     constructor (expected) {
         this.machineAnswers = expected;

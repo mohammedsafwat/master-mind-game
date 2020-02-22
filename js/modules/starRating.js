@@ -1,4 +1,5 @@
 // RATING THE FULL GAME PLAY AT THE END OF THE GAME.
+
 export var ratingMsgs = {
     0 : ["You'll get it next time!", "Give it another go!"],
     1 : ["Good One!", "You got this!", "Woohoo!"],
