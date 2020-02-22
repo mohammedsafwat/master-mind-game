@@ -1,0 +1,33 @@
+{
+  "name": "master-mind-game",
+  "version": "1.0.0",
+  "description": "A remastering of the game MasterMind!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loetcodes/master-mind-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loetcodes/master-mind-game/issues"
+  },
+  "homepage": "https://github.com/loetcodes/master-mind-game#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  }
+}
