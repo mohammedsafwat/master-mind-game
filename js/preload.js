@@ -3,19 +3,24 @@
 function delay(url) {
     window.setTimeout( () =>{
     	window.location = url 
-    }, 800);
+    }, 900);
 }
 
 // Check the body content at this point and uncover preloader, check all resources are loaded
-let document_state = setInterval(function () {
+let documentState = setInterval(function () {
+
 	if(document.readyState === "complete") {
-		clearInterval(document_state);
+		let timeWait = 1000;
+		clearInterval(documentState);
 		let bodyTag = document.getElementById("main-body");
 		bodyTag.className += " loaded";
+		if (bodyTag.className.includes('home')) {
+			timeWait = 6000;
+		}
 
 		window.setTimeout(() => {
 			let element = document.getElementById("preloader");
 			element.style.display = "none";
-		}, 1000);
+		}, timeWait);
 	}
 }, 10);
