@@ -28,5 +28,5 @@ function hideAndShow(hideId, showId) {
 			currentPg.classList.remove("unload");
 		}
 
-	}, 1500);
+	}, 1400);
 }

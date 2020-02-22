@@ -107,7 +107,7 @@ CSS FOR MAIN GAME PAGE.
 .load-item {
 	opacity: 0;
 	animation-name: grow-fade-reduce;
-	animation-duration: 1000ms;
+	animation-duration: 900ms;
 	animation-timing-function: linear;
 	animation-fill-mode: forwards;
 }
@@ -272,7 +272,6 @@ CSS FOR MAIN GAME PAGE.
 .onstart-load .footer-content {
 	grid-column: 2;
 	grid-row: 3;
-
 	opacity: 0;
 	animation-name: fade-in;
 	animation-duration: 2000ms;
@@ -281,18 +280,17 @@ CSS FOR MAIN GAME PAGE.
 	animation-fill-mode: forwards;
 }
 
-
 .footer-content .toggle-item {
-	animation-delay: 2000ms;
+	animation-delay: 1500ms;
 }
 
 
 /* Loading animation timing delays */
 
-.page-content .content-section .nav-link:nth-child(1) .load-item { animation-delay: 500ms }
-.page-content .content-section .nav-link:nth-child(2) .load-item { animation-delay: 1000ms }
-.page-content .content-section .nav-link:nth-child(3) .load-item { animation-delay: 1500ms }
-.page-content .footer-content .load-item { animation-delay: 2000ms }
+.page-content .content-section .nav-link:nth-child(1) .load-item { animation-delay: 400ms }
+.page-content .content-section .nav-link:nth-child(2) .load-item { animation-delay: 800ms }
+.page-content .content-section .nav-link:nth-child(3) .load-item { animation-delay: 1200ms }
+.page-content .footer-content .load-item { animation-delay: 1400ms }
 
 
 #main-pg.onstart-load .load-transition .nav-link:nth-child(1) .initial-load { animation-delay: 4000ms }
@@ -305,16 +303,16 @@ CSS FOR MAIN GAME PAGE.
 .unload .load-item{
   opacity: 1;
   animation-name: shrink-fade;
-  animation-duration: 1000ms;
+  animation-duration: 800ms;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
-  animation-delay: 400ms;
+  animation-delay: 250ms;
 }
 
 .unload .toggle-item {
 	opacity: 1;
 	animation-name: fade-out;
-	animation-duration: 1000ms;
+	animation-duration: 800ms;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
 	animation-delay: 400ms;
@@ -323,7 +321,7 @@ CSS FOR MAIN GAME PAGE.
 .unload .footer-content .other-links {
 	opacity: 1;
 	animation-name: fade-out;
-	animation-duration: 1000ms;
+	animation-duration: 800ms;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
 	animation-delay: 800ms;
@@ -332,7 +330,7 @@ CSS FOR MAIN GAME PAGE.
 .unload .footer-content .social-media {
 	opacity: 1;
 	animation-name: fade-out;
-	animation-duration: 1000ms;
+	animation-duration: 800ms;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
 	animation-delay: 800ms;

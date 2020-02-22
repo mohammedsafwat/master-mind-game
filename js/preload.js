@@ -3,7 +3,7 @@
 function delay(url) {
     window.setTimeout( () =>{
     	window.location = url 
-    }, 900);
+    }, 1200);
 }
 
 // Check the body content at this point and uncover preloader, check all resources are loaded
